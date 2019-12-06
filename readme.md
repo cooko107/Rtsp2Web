@@ -33,7 +33,7 @@
 
 #### 帧数不高，一次http访问大概在0.15s左右，然后我碰到的问题是linux下，开两个窗口，然后关闭其中一个，另一个就会timeout，windows下不会有这个问题，不知道为何
 
-## 5. gstream
+## 5. gstreamer
 ### 优点: 延迟低
 ### 缺点: cpu占用一般
 ### 依赖: gstreamer flask(或其他服务框架)
