@@ -44,4 +44,5 @@
 
 ## 6. 海康sdk
 * 参考链接: <https://blog.csdn.net/ustczhang/article/details/79030715>
- 原文用codeblocks编译的,因为我没有gui，所以写成了setup.py文件,编译通过了，信息显示登录和取流也成功了，但是出现error happend，c++较弱,没有继续调试。
+
+原文用codeblocks编译的,因为我没有gui，所以写成了setup.py文件,编译通过了，信息显示登录和取流也成功了，但是出现error happend，c++较弱,没有继续调试。
