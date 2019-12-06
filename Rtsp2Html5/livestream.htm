@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>livestream test</title>
+        <meta name="author" content="Ralph Hughes">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    </head>
+    <body>
+
+
+
+    <div id="group" style="position: absolute; left:0px; top:0px; height: 640px; width: 480px">
+        <video id="widget" width="640" height="480" controls autoplay>
+            <source id="vidSource" type="video/mp4">
+        </video>
+    </div>
+
+
+<script>
+	var widgetID = document.getElementById('widget');
+    var camCanvas = document.getElementById("group");
+	var vidSource = document.getElementById("vidSource");
+            
+    widgetID.controls = true;
+    vidSource.src = "http://127.0.0.1:3000?url=rtsp://admin:xiolift123@192.168.13.106/h264/ch1/main/av_stream";
+    widgetID.load();
+    widgetID.play();
+</script>
+</body>
+</html>
